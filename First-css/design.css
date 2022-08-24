@@ -1,0 +1,230 @@
+body{
+    height: 400vh;
+    margin: 0;
+    background-color:aqua;
+}
+
+.container1{
+    background-image:url(../img/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    height: 65vh;
+    background-color: powderblue;
+    border: 2px solid #fff;
+    border-bottom: 15px solid #fff;
+}
+
+.container1 .huddle img{
+    max-width:70px;
+    height: auto;
+    padding:5px 0px 0px 30px;
+}
+
+.container1 .huddle p{
+    margin:20px 50px 30px 0px;
+    background-color: white;
+    float: right;
+    border: 2px solid white;
+    padding: 2px 40px 5px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.container1 .mockup h2{
+    margin: 30px 30px 0px 30px;
+}
+
+.container1 .mockup img{
+ max-width: 500px;
+ float: right;
+}
+
+.container1 .get p{
+    margin: 30px 30px 30px 30px;
+    font-size: 20px;
+}
+
+.container1 .get p1{
+    margin: 30px;
+    border: 2px solid hotpink;
+    color: white;
+    background-color: hotpink;
+    border-radius: 15px;
+    padding: 5px 50px 5px 50px;
+    font-size: 13px;
+    border-width: 4px;
+}
+
+.container2{
+    height: 65vh;
+    border: 2px soli #fff;
+    border: 4px solid #fff;
+}
+
+.container2 .grow h2{
+margin: 0px 30px 30px 30px;
+padding-top: 60px;
+padding-left: 100px;
+padding-top: 100px;
+}
+
+.container2 .grow p{
+    margin: 0px 30px 30px 30px;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.container2 img{
+    float: right;
+    max-width: 500px;
+    margin: 0px;
+    padding: 2px 30px 0px 470px;
+}
+
+.container3{
+    height: 65vh;
+    border: 4px solid #fff;
+}
+
+.container3 img{
+max-width: 500px;
+float: left;
+padding:30px 0px 0px 150px;
+}
+
+.container3 .flow{
+    padding: 150px 70px 0px 70px;
+    position: relative;
+    position: absolute;
+    right:40px;
+    font-size: 20px;
+}
+
+.container4{
+    height: 65vh;
+    border: 4px solid #fff;
+    border-bottom: 15px solif #fff;
+}
+
+.container4 .users h2{
+ margin: 0px 30px 30px 30px;
+ padding-top: 180px;   
+ padding-left: 210px;
+}
+
+.container4 .users p{
+    padding:0px 30px 30px 240px;
+    font-size: 20px;
+}
+
+.container4 img{
+    max-width: 500px;
+    float: right;
+    padding: 30px 50px 0px 0px;
+}
+
+.container5{
+    height: 70vh;
+    background-color:rgb(4, 43, 58) ;
+}
+
+.container5 img{
+    max-width: 200px;
+    padding:200px 100px 0px 80px ;
+    filter: grayscale(100%);   
+}
+.container5 .location img{
+    padding-bottom: 250px;
+    padding-top: 20px;
+}
+
+.container5 .location p{
+    padding-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    position: relative;
+    position: absolute ;
+    top:1874px;
+    left:100px;
+    color: white;
+    font-size: 14px;
+} 
+
+.container5 .location p1{
+    position: relative;
+    position: absolute;
+    left: 580px;
+    top: 1888px;
+    color: white;
+}
+
+.container5 .location p2{
+    position: relative;
+    position: absolute;
+    left: 578px;
+    top: 1920px;
+    color: white;
+}
+
+.container5 .location p3{
+    position: relative;
+    position: absolute;
+    left: 900px;
+    top: 1888px;
+    color: white;
+}
+
+.container5 .location p4{
+    position: relative;
+    position: absolute;
+    top: 1920px;
+    left:900px;
+    color: white;
+}
+
+.container5 .phone img{
+    padding-left: 77px;
+    padding-bottom: 0px;
+    position: relative;
+    position: absolute;
+    top: 1756px;
+    display: flex;
+    flex-shrink: 20px;
+}
+
+.container5 .phone p{
+    position: relative;
+    position: absolute;
+    top: 1940px;
+    left: 120px;
+    color: white;
+}
+
+.container5 .phone p1{
+    position: relative;
+    position: absolute;
+    top:1955px ;
+    left:590px;
+    color: white;
+}
+
+.container5 .phone p2{
+    position: relative;
+    position: absolute;
+    top:1955px;
+    left:900px;
+    color: white;
+}
+
+.container5 .email img{
+    position: relative;
+    position: absolute;
+    top:1800px;
+}
+
+.container5 .email p{
+    position: relative;
+    position: absolute;
+    top: 1980px;
+    left:120px;
+    color: white;
+}

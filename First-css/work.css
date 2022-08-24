@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper >*{
+    margin: 10px;
+    padding: 10px;
+    flex:1 100%;
+}
+
+.header{
+    background-color: brown;
+    height: 80px;
+}
+
+.main{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.aside1{
+    background-color: cadetblue;
+}
+
+.aside2{
+    background-color: blue;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    height: 80px;
+}
+@media all and(    min-width: 800px){.main{flex:3;}
+
+}
+

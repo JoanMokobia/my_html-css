@@ -1,0 +1,63 @@
+.container{
+margin: 5px;
+display: flex;
+flex-flow: row wrap;
+}
+
+#main-header{
+background-color: blue;
+color: aquamarine;
+padding:3px 5px 3px 10px;
+flex-basis: 100%;
+text-align: center;
+}
+
+.navbar{
+background-color:teal;
+flex-basis: 100%;
+position: sticky;
+top: 0;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar a{
+    padding:20px ;
+    color: white;
+    text-decoration: none;
+}
+
+.ABOUT{
+    display: block;
+}
+
+.ABOUT h1{
+text-align: center;
+text-decoration: underline;
+margin-left: 700px;
+}
+
+.ABOUT P{
+    margin-left: 700px;
+    display: block;
+}
+
+aside{
+    background-image: url(../img/butterfly.jpg);
+    position: relative;
+    position: absolute;
+    top:200px;
+}
+
+aside img{
+    height: 300px;
+    width: 600px;
+}
+ 
