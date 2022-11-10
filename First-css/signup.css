@@ -1,0 +1,111 @@
+body{
+    /* background-color: #eee; */
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* background-image: url(../img/nail.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100vh; 
+    /* background-color: rgb(241, 223, 187); */
+}
+
+.container .signup{
+    text-align: center;
+    color:deepskyblue;
+    text-shadow: 1px -2px 2px black, 0 0 10px blue, 0 -2px 5px darkblue;
+    padding-top: 1px;
+    font-size: 25px;
+}
+
+/* .container .signup p{
+    font-size: 18px;
+    font-style: oblique;
+    padding-left: 15px;
+} */
+
+@media(max-width:450px){
+    .container{
+        flex-direction: column;
+    }
+    .item-wrap{
+        flex-direction: column;
+    }
+    .items{
+        flex-direction: column;
+    }
+}
+
+.item-wrap{
+    width:30%;
+    border: #333 2px solid;
+    border-radius: 10px;
+    height: 75vh;
+    /* outline-width: thick;
+    outline-style: groove;
+    outline-color:deepskyblue;
+    outline-offset: 3px; */
+    background-color: white;
+    margin: 10px 0px 0px 450px;
+    
+}
+
+.item-wrap h2{
+    text-align: center;
+    color: rgb(14, 107, 200);
+    font-size: 25px;
+}
+
+.container .items{
+    padding: 0px 0px 0px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(11, 121, 158);
+}
+
+.items input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+/* .item-wrap #btn a{
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+
+    
+} */
+
+.item-wrap button{
+    width: 20%;
+    height: 5vh;
+    background-color: blue;
+    margin-left: 140px;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+
+.item-wrap button a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+   
+}
+
+.item-wrap #password a{
+    text-align: right;
+    padding: 30px 0px 0px 130px;  
+    font-size: 16px;
+    color: black;  
+}
+
+.item-wrap button:hover{
+    background-color: rgb(87, 87, 202);
+}
+
+.item-wrap #password a:hover{
+    color: rgb(18, 18, 223);
+}
